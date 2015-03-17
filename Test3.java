@@ -36,12 +36,14 @@ do{
 	if (conv == CF) {
 		System.out.println("Entrez votre valeur à convertir :");
 		cel = sc.nextDouble();
+		// A MODIFIER
 		fah = cel+1;
 		System.out.println( cel + " °C en donnent " + fah + " °F.")
 	}
 	else{
 		System.out.println("Entrez votre valeur à convertir :");
 		fah = sc.nextDouble();
+		// A MODIFIER
 		cel = fah + 1;
 		System.out.println( fah + " °F en donnent " + cel + " °C.")
 	}
