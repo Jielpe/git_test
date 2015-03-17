@@ -36,7 +36,7 @@ do{
 	if (conv == CF) {
 		System.out.println("Entrez votre valeur à convertir :");
 		cel = sc.nextDouble();
-		// A MODIFIER
+		// A MODIFIER // Bien vu !
 		fah = cel+1;
 		System.out.println( cel + " °C en donnent " + fah + " °F.")
 	}
